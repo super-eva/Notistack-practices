@@ -4,7 +4,11 @@ import { SnackbarProvider } from 'notistack';
 import { MyButton } from './button';
 
 const App = (props) => {
-  return <MyButton />;
+  return (
+    <>
+      <p>test</p>
+      <MyButton />
+    </>);
 }
 
 ReactDOM.render(
